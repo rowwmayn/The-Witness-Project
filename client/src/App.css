@@ -1,0 +1,9 @@
+div {
+  border: 2px solid black;
+  padding: 10px;
+}
+.logo {
+  width: 100px;  /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevents it from stretching */
+}
