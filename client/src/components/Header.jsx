@@ -1,12 +1,25 @@
-import React from 'react'
-import "../App.css"
-const Header = () => {
-  return (
-    <nav className="navbar">
-      <img src="/logo.png" alt="Logo" className="logo" />
-      <p>Hello I am the header</p>
-    </nav>
-  )
-}
+import React from "react";
 
-export default Header
+const Header = () => {
+  const headerStyle = {
+    backgroundColor: "#000",
+    color: "#fff",
+    display: "flex",
+    alignItems: "center",
+    padding: "10px 20px",
+  };
+
+  const logoStyle = {
+    height: "40px",
+    marginRight: "10px",
+  };
+
+  return (
+    <header style={headerStyle}>
+      <img src="/The Witness.png" alt="Logo" style={logoStyle} />
+      <h1>The Witness Project</h1>
+    </header>
+  );
+};
+
+export default Header;
